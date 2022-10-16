@@ -1,0 +1,13 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class AnimatorEvent : MonoBehaviour
+{
+    public AnimationActive anim;
+    
+    public void ChangeAnim()
+    {
+        anim.IdleAgain();
+    }
+}
